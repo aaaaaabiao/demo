@@ -1,4 +1,4 @@
-package site.abiao.demo.lucene.analyzer;
+package site.abiao.demo.apache.lucene.analyzer;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;

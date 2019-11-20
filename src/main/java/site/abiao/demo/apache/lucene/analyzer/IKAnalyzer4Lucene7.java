@@ -1,4 +1,4 @@
-package site.abiao.demo.lucene.analyzer;
+package site.abiao.demo.apache.lucene.analyzer;
 
 import org.apache.lucene.analysis.Analyzer;
 

@@ -1,15 +1,12 @@
-package site.abiao.demo.lucene;
+package site.abiao.demo.apache.lucene;
 import java.nio.file.Paths;
-import java.util.List;
 import java.util.Scanner;
-
 import lombok.extern.slf4j.Slf4j;
+import org.apache.hadoop.conf.Configuration;
 import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
-import org.apache.lucene.index.IndexableField;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
@@ -23,7 +20,10 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import site.abiao.demo.lucene.analyzer.IKAnalyzer4Lucene7;
+import site.abiao.demo.apache.lucene.analyzer.IKAnalyzer4Lucene7;
+import site.abiao.demo.apache.lucene.datas.Contants;
+import site.abiao.demo.apache.lucene.directory.hdfs.HdfsDirectory;
+import site.abiao.demo.apache.lucene.directory.vfs.VFSDirectory;
 
 /**
  * 根据索引搜索
@@ -36,11 +36,25 @@ import site.abiao.demo.lucene.analyzer.IKAnalyzer4Lucene7;
 @Slf4j
 public class Searcher {
     Logger logger = LoggerFactory.getLogger(Searcher.class);
-    public static void search(String indexDir, String q) throws Exception {
+    public static void search(String dirType, String q) throws Exception {
 
         // 得到读取索引文件的路径
-        Directory dir = FSDirectory.open(Paths.get(indexDir));
+        Directory dir = null;
         // 通过dir得到的路径下的所有的文件
+
+        switch (dirType) {
+            case "mmap":
+                dir = FSDirectory.open(Paths.get(Contants.indexDir));
+                break;
+            case "hdfs":
+                Configuration config = new Configuration();
+                config.set("dfs.client.use.datanode.hostname","true");
+                dir = new HdfsDirectory(config, Contants.hdfsDir);
+                break;
+            case "ftp":
+                dir = new VFSDirectory(Contants.ftpDir);
+                break;
+        }
         IndexReader reader = DirectoryReader.open(dir);
         // 建立索引查询器
         IndexSearcher is = new IndexSearcher(reader);
@@ -85,14 +99,15 @@ public class Searcher {
     }
 
     public static void main(String[] args) {
-        String indexDir = "/Users/hubiao/java/data/lucene/index";
+
         Scanner scanner = new Scanner(System.in);
         while (true) {
+            String dirType = scanner.next();
             String q = scanner.next();
             log.info("query:{}", q);
             if (!"exit".equals(q)) {
                 try {
-                    search(indexDir, q);
+                    search(dirType, q);
                 } catch (Exception e) {
                     // TODO Auto-generated catch block
                     e.printStackTrace();

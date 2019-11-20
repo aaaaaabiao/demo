@@ -1,0 +1,2421 @@
+{
+  "initialState": {
+    "common": {
+      "ask": {}
+    },
+    "loading": {
+      "global": {
+        "count": 0
+      },
+      "local": {
+        "question\u002Fget\u002F": false,
+        "answer\u002Fget\u002F": false
+      }
+    },
+    "entities": {
+      "users": {
+        "0d0ba11e4c80dcec8cb0868d4213380b": {
+          "uid": 613270780948254700,
+          "userType": "people",
+          "id": "0d0ba11e4c80dcec8cb0868d4213380b"
+        }
+      },
+      "questions": {
+        "25693637": {
+          "type": "question",
+          "id": 25693637,
+          "title": "算法到底应该怎么学？",
+          "questionType": "normal",
+          "created": 1412387724,
+          "updatedTime": 1412509630,
+          "url": "https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fquestions\u002F25693637",
+          "isMuted": false,
+          "isNormal": true,
+          "isEditable": true,
+          "adminClosedComment": false,
+          "hasPublishingDraft": false,
+          "answerCount": 58,
+          "visitCount": 420053,
+          "commentCount": 2,
+          "followerCount": 2570,
+          "collapsedAnswerCount": 1,
+          "excerpt": "我是大一学了门c语言之后，找了本《算法：c语言实现》看。一开始，看不太懂，只是机子上打一遍，强行记代码。不过，看了后面的，前面的基本都忘了。后来，我去背算法的过程描述，情况好了点。但是，打算法依然要慢慢回想，才能打出来，而且细节处还出错！我就想请教算法到底怎么学才好？？？",
+          "commentPermission": "all",
+          "detail": "我是大一学了门c语言之后，找了本《算法：c语言实现》看。一开始，看不太懂，只是机子上打一遍，强行记代码。不过，看了后面的，前面的基本都忘了。后来，我去背算法的过程描述，情况好了点。但是，打算法依然要慢慢回想，才能打出来，而且细节处还出错！我就想请教算法到底怎么学才好？？？",
+          "editableDetail": "我是大一学了门c语言之后，找了本《算法：c语言实现》看。一开始，看不太懂，只是机子上打一遍，强行记代码。不过，看了后面的，前面的基本都忘了。后来，我去背算法的过程描述，情况好了点。但是，打算法依然要慢慢回想，才能打出来，而且细节处还出错！我就想请教算法到底怎么学才好？？？",
+          "status": {
+            "isLocked": false,
+            "isClose": false,
+            "isEvaluate": false,
+            "isSuggest": false
+          },
+          "relationship": {
+            "isAuthor": false,
+            "isFollowing": false,
+            "isAnonymous": false,
+            "canLock": false,
+            "canStickAnswers": false,
+            "canCollapseAnswers": false
+          },
+          "topics": [
+            {
+              "id": "19553510",
+              "type": "topic",
+              "url": "https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Ftopics\u002F19553510",
+              "name": "算法",
+              "avatarUrl": "https:\u002F\u002Fpic4.zhimg.com\u002F2e6276881_is.jpg"
+            }
+          ],
+          "author": {
+            "id": "0",
+            "urlToken": "",
+            "name": "匿名用户",
+            "avatarUrl": "https:\u002F\u002Fpic1.zhimg.com\u002Faadd7b895_is.jpg",
+            "avatarUrlTemplate": "https:\u002F\u002Fpic1.zhimg.com\u002Faadd7b895_{size}.jpg",
+            "isOrg": false,
+            "type": "people",
+            "url": "https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fpeople\u002F0",
+            "userType": "people",
+            "headline": "",
+            "badge": [],
+            "gender": 1,
+            "isAdvertiser": false,
+            "followerCount": 0,
+            "isFollowing": false,
+            "isFollowed": false,
+            "isCelebrity": false,
+            "isBlocking": false,
+            "isBlocked": false,
+            "isPrivacy": false
+          },
+          "canComment": {
+            "status": true,
+            "reason": ""
+          },
+          "reviewInfo": {
+            "type": "",
+            "tips": "",
+            "editTips": "",
+            "isReviewing": false
+          },
+          "relatedCards": [],
+          "muteInfo": {
+            "type": ""
+          },
+          "showAuthor": false,
+          "showEncourageAuthor": false
+        }
+      },
+      "answers": {
+        "747872819": {
+          "id": 747872819,
+          "type": "answer",
+          "answerType": "normal",
+          "question": {
+            "type": "question",
+            "id": 25693637,
+            "title": "算法到底应该怎么学？",
+            "questionType": "normal",
+            "created": 1412387724,
+            "updatedTime": 1412509630,
+            "url": "https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fquestions\u002F25693637",
+            "relationship": {}
+          },
+          "author": {
+            "id": "ca543017f72b86792a84c8fbcfe22b49",
+            "urlToken": "crackinterview",
+            "name": "九章算法",
+            "avatarUrl": "https:\u002F\u002Fpic2.zhimg.com\u002F26bd9bde846f0777ecef6f095f6dc1a1_is.jpg",
+            "avatarUrlTemplate": "https:\u002F\u002Fpic2.zhimg.com\u002F26bd9bde846f0777ecef6f095f6dc1a1_{size}.jpg",
+            "isOrg": false,
+            "type": "people",
+            "url": "https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fpeople\u002Fca543017f72b86792a84c8fbcfe22b49",
+            "userType": "people",
+            "headline": "美帝代码搬运工，资深面试官，微信公众号-九章算法",
+            "badge": [],
+            "gender": 1,
+            "isAdvertiser": false,
+            "isFollowed": false,
+            "isPrivacy": false
+          },
+          "url": "https:\u002F\u002Fwww.zhihu.com\u002Fapi\u002Fv4\u002Fanswers\u002F747872819",
+          "isCollapsed": false,
+          "createdTime": 1563034185,
+          "updatedTime": 1571816717,
+          "extras": "",
+          "isCopyable": true,
+          "isNormal": true,
+          "voteupCount": 2420,
+          "commentCount": 23,
+          "isSticky": false,
+          "adminClosedComment": false,
+          "commentPermission": "all",
+          "canComment": {
+            "reason": "",
+            "status": true
+          },
+          "reshipmentSettings": "allowed",
+          "content": "\u003Cp\u003E学习算法，切记不要一上来就开始啃《算法导论》，毕竟这本书并不适合新手学习，如果你之前的算法基础比较薄弱，只会一直陷在“拿起来又放下”的循环里。\u003C\u002Fp\u003E\u003Cp\u003E可以怎么入门呢？建议还是\u003Cb\u003E看书+实战\u003C\u002Fb\u003E，实战当然也不是说要去肝ACM或者是topcoder什么的，基本上来我们\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002F%3Futm_source%3Dzhihuanswer%26source%3Dzhihuanswer\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003ELintCode\u003C\u002Fa\u003E刷刷题也就够了。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E如何学习算法？\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003E算法，其实可以分为三种。算法、面试算法、竞赛算法。\u003C\u002Fp\u003E\u003Cul\u003E\u003Cli\u003E\u003Cb\u003E算法\u003C\u002Fb\u003E\u003C\u002Fli\u003E\u003C\u002Ful\u003E\u003Cp\u003E也就是算法本身，推荐一些书籍。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E1.入门系列：\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003E《算法图解》：“像小说一样有趣的算法入门书”，主打“图解”，通俗易懂\u003C\u002Fp\u003E\u003Cp\u003E《大话数据结构》：把理论讲得有趣不枯燥；每个数据结构和算法，作者都结合了生活中的例子，能让你有非常直观的感受。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E2.教科书系列：\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003E《数据结构与算法分析》：很多大学都拿它当作教材，非常系统、全面、严谨，适合掌握了至少一门编程语言的同学。\u003C\u002Fp\u003E\u003Cp\u003E作者也很贴心，这本书有三种语言的版本：《数据结构与算法分析 : C 语言描述》《数据结构与算法分析 : C++ 描述》《数据结构与算法分析 : Java 语言描述》。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E3.进阶之旅：\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003E《算法导论》：有了一定基础之后，就可以开始啃这本大部头了。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E5.扩展阅读：\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003E《算法之美》：算法科普，从生活中的各种问题说起：租房、谈恋爱、老虎机、拍电影、面试、买彩票、各种排序、找停车位、寻找新药、临床试验、奥巴马拉赞助、预估电影票房等等，非常生活化，可以作为补充阅读。\u003C\u002Fp\u003E\u003Cp\u003E《算法帝国》：同样是科普类书籍，并无涉及算法的原理与实现细节，也可以作为补充阅读。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E6.殿堂级\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003E《计算机程序设计艺术》：包含很多卷，深度、广度、系统性、全面性是其他所有数据结构和算法书籍都所无法相比。可以当做一种挑战~\u003C\u002Fp\u003E\u003Cfigure data-size=\"normal\"\u003E\u003Cnoscript\u003E\u003Cimg src=\"https:\u002F\u002Fpic2.zhimg.com\u002F50\u002Fv2-253761f27431f57b8cb41898dda31017_hd.jpg\" data-size=\"normal\" data-rawwidth=\"1142\" data-rawheight=\"697\" class=\"origin_image zh-lightbox-thumb\" width=\"1142\" data-original=\"https:\u002F\u002Fpic2.zhimg.com\u002Fv2-253761f27431f57b8cb41898dda31017_r.jpg\"\u002F\u003E\u003C\u002Fnoscript\u003E\u003Cimg src=\"data:image\u002Fsvg+xml;utf8,&lt;svg xmlns=&#39;http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg&#39; width=&#39;1142&#39; height=&#39;697&#39;&gt;&lt;\u002Fsvg&gt;\" data-size=\"normal\" data-rawwidth=\"1142\" data-rawheight=\"697\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1142\" data-original=\"https:\u002F\u002Fpic2.zhimg.com\u002Fv2-253761f27431f57b8cb41898dda31017_r.jpg\" data-actualsrc=\"https:\u002F\u002Fpic2.zhimg.com\u002F50\u002Fv2-253761f27431f57b8cb41898dda31017_hd.jpg\"\u002F\u003E\u003Cfigcaption\u003E图源网络，侵删\u003C\u002Ffigcaption\u003E\u003C\u002Ffigure\u003E\u003Cul\u003E\u003Cli\u003E\u003Cb\u003E面试算法\u003C\u002Fb\u003E\u003C\u002Fli\u003E\u003C\u002Ful\u003E\u003Cp\u003E要说最快掌握面试算法的捷径，还是脚踏实地着多动手去刷题，多刷题。\u003C\u002Fp\u003E\u003Cp\u003E当然，在\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002F%3Futm_source%3Dzhihuanswer%26source%3Dzhihuanswer\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003ELintCode\u003C\u002Fa\u003E开始刷题，首先你也也得具备一定的基础，这些基础包括：\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E算法部分\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cdiv class=\"highlight\"\u003E\u003Cpre\u003E\u003Ccode class=\"language-text\"\u003E二分搜索 Binary Search \n分治 Divide Conquer \n宽度优先搜索 Breadth First Search \n深度优先搜索 Depth First Search\n回溯法 Backtracking \n双指针 Two Pointers \n动态规划 Dynamic Programming \n扫描线 Scan-line algorithm\n快排 Quick Sort\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\u003C\u002Fdiv\u003E\u003Cp\u003E\u003Cb\u003E数据结构部分\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cdiv class=\"highlight\"\u003E\u003Cpre\u003E\u003Ccode class=\"language-text\"\u003E栈 Stack\n队列 Queue\n链表 Linked List \n数组 Array \n哈希表 Hash Table\n二叉树 Binary Tree  \n堆 Heap\n并查集 Union Find\n字典树 Trie\u003C\u002Fcode\u003E\u003C\u002Fpre\u003E\u003C\u002Fdiv\u003E\u003Cp\u003E\u003Cbr\u002F\u003E对算法题来说有两大法宝，“拿到题选什么算法”和“如何实现这个算法”，后者会更容易一些，所以可以先从实现算法开始练起（\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002F%3Futm_source%3Dzhihuanswer%26source%3Dzhihuanswer\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003ELintCode\u003C\u002Fa\u003E的分类阶梯训练）。\u003C\u002Fp\u003E\u003Cp\u003E然后当一些标准算法数据结构都不陌生后，再去训练新题，尝试用各种算法解决各种不同的问题。 \u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E当然，针对面试准备，也有一些书：\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003E《剑指 Offer》：几乎包含所有常见的、经典的面试题，是应对面试的必读书籍\u003C\u002Fp\u003E\u003Cp\u003E《编程之美》：适合准备面试FLAG大厂时候用来刷题 \u003C\u002Fp\u003E\u003Cp\u003Eps：这两本书都可以配合在\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002F%3Futm_source%3Dzhihuanswer%26source%3Dzhihuanswer\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003ELintCode\u003C\u002Fa\u003E上刷题 \u003C\u002Fp\u003E\u003Cfigure data-size=\"normal\"\u003E\u003Cnoscript\u003E\u003Cimg src=\"https:\u002F\u002Fpic4.zhimg.com\u002F50\u002Fv2-6266826dc783fc9fa82219eab79e793d_hd.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"867\" data-rawheight=\"507\" class=\"origin_image zh-lightbox-thumb\" width=\"867\" data-original=\"https:\u002F\u002Fpic4.zhimg.com\u002Fv2-6266826dc783fc9fa82219eab79e793d_r.jpg\"\u002F\u003E\u003C\u002Fnoscript\u003E\u003Cimg src=\"data:image\u002Fsvg+xml;utf8,&lt;svg xmlns=&#39;http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg&#39; width=&#39;867&#39; height=&#39;507&#39;&gt;&lt;\u002Fsvg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"867\" data-rawheight=\"507\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"867\" data-original=\"https:\u002F\u002Fpic4.zhimg.com\u002Fv2-6266826dc783fc9fa82219eab79e793d_r.jpg\" data-actualsrc=\"https:\u002F\u002Fpic4.zhimg.com\u002F50\u002Fv2-6266826dc783fc9fa82219eab79e793d_hd.jpg\"\u002F\u003E\u003C\u002Ffigure\u003E\u003Cul\u003E\u003Cli\u003E\u003Cb\u003E竞赛算法\u003C\u002Fb\u003E\u003C\u002Fli\u003E\u003C\u002Ful\u003E\u003Cp\u003E算法学习最好由浅入深，先了解算法思维，再去理解实际应用；\u003C\u002Fp\u003E\u003Cp\u003E当逐步全面的掌握相关知识体系，有一定实践经验后，可以去参加一些竞赛提升自己的算法能力。\u003C\u002Fp\u003E\u003Cp\u003E竞赛算法是比较锻炼人的，对于竞赛来说，每道题对输入参数和样本量的要求都非常明确，包括对空间的限制和运行时间的限制也规定的非常明确。每一个竞赛选手都非常熟练怎么根据这些提前给好的限制，反推出自己需要实现一个什么样复杂度的解法才能通过。所以对思维和逻辑上的锻炼是非常有效的。\u003C\u002Fp\u003E\u003Cp\u003E\u003Cbr\u002F\u003E\u003Cb\u003E献上一些面试常考算法类型和经典题，愉快地刷起来吧~\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E数学\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fproblem\u002Ffibonacci\u002F%3Futm_source%3Dzhihuanswer%26source%3Dzhihuanswer\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E尾部的零\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fproblem\u002Ffibonacci\u002F%3Futm_source%3Dzhihuanswer%26source%3Dzhihuanswer\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E斐波纳契数列\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fproblem\u002Fsqrtx\u002Fdescriptionhttps%3A\u002F\u002Fwww.lintcode.com\u002Fproblem\u002Fmultiply-strings\u002Fdescriptionhttps%3A\u002F\u002Fwww.lintcode.com\u002Fproblem\u002Fdices-sum\u002Fdescription%3Futm_source%3Dzhihuanswer%26source%3Dzhihuanswer\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003Ex的平方根\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fproblem\u002Fmultiply-strings\u002Fdescriptionhttps%3A\u002F\u002Fwww.lintcode.com\u002Fproblem\u002Fdices-sum\u002Fdescription%3Futm_source%3Dzhihuanswer%26source%3Dzhihuanswer\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E大整数乘法\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fproblem\u002Fdices-sum\u002Fdescription%3Futm_source%3Dzhihuanswer%26source%3Dzhihuanswer\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E骰子求和\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fmax-points-on-a-line\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最多有多少个点在一条直线上\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fsuper-ugly-number\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E超级丑数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E比特位操作\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fflip-bits\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E将整数A转换为B\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fupdate-bits\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E更新二进制位\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fbinary-representation\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E二进制表示\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fo1-check-power-of-2\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003EO(1)时间检测2的幂次\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fcount-1-in-binary\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E二进制中有多少个1\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E动态规划\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fedit-distance\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E编辑距离\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fregular-expression-matching\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E正则表达式匹配\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Finterleaving-string\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E交叉字符串\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fmaximum-product-subarray\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E乘积最大子序列\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fbinary-tree-maximum-path-sum\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E二叉树中的最大路径和\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Funique-paths\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E不同的路径\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fwildcard-matching\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E通配符匹配\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E堆\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsliding-window-median\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E滑动窗口的中位数\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fdata-stream-median\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E数据流中位数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Ftop-k-frequent-words\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最高频的K个单词\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Ftrapping-rain-water-ii\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E接雨水\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fheapify\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E堆化\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fkth-smallest-number-in-sorted-matrix\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E排序矩阵中的从小到大第k个数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E二叉树\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fbinary-tree-inorder-traversal\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E二叉树中序遍历\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fbinary-tree-serialization\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E二叉树的序列化和反序列化\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsubtree\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E子树\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Flowest-common-ancestor\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最近公共祖先\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fbinary-tree-level-order-traversal\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E二叉树的层次遍历\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fflatten-binary-tree-to-linked-list\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E将二叉树拆成链表\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Finsert-node-in-a-binary-search-tree\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E在二叉查找树中插入节点\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E二分法\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fclassical-binary-search\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E经典二分查找问题\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Ffirst-position-of-target\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E二分查找\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fintersection-of-two-arrays\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E两数组的交\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Finterval-minimum-number\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E区间最小数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Ffind-minimum-in-rotated-sorted-array\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E寻找旋转排序数组中的最小值\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fsearch-for-a-range\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E搜索排序区间\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Ffind-peak-element\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E寻找峰值\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E分治法\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Ffast-power\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E快速幂\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fmedian-of-two-sorted-arrays\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E两个排序数组的中位数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fmerge-k-sorted-lists\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E合并K个排序链表\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E哈希表\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsubstring-anagrams\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E变形词子串\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fhash-function\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E哈希函数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Ftiny-url\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E短网址\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fcopy-list-with-random-pointer\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E复制带随机指针的链表\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fminimum-window-substring\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最小子串覆盖\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E矩阵\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsearch-a-2d-matrix\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E搜索二维矩阵\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Frotate-image\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E旋转图像\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fnumber-of-islands\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E岛屿的个数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fspiral-matrix\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E螺旋矩阵\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E宽度优先搜索\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fclone-graph\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E克隆图\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fsurrounded-regions\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E被围绕的区域\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Ftopological-sorting\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E拓扑排序\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fword-ladder\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E单词接龙\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E链表\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Freverse-linked-list\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E实现一个链表的反转\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fadd-two-numbers-ii\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E链表求和 II\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fremove-linked-list-elements\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E删除链表中的元素\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Flru-cache\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003ELRU缓存策略\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fmerge-two-sorted-lists\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E合并两个排序链表\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fintersection-of-two-linked-lists\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E两个链表的交叉\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Freverse-linked-list-ii\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E翻转链表 II\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fcopy-list-with-random-pointer\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E复制带随机指针的链表\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Flinked-list-cycle\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E带环链表\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E枚举法\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fdigit-counts\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E统计数字\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fidentify-celebrity\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E名人确认\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fcount-of-smaller-number\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最长连续上升子序列\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fmaximum-subarray-difference\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最大子数组差\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Flongest-common-prefix\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最长公共前缀\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E排序\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsort-integers-ii\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E快排\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fwiggle-sort\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E摆动排序\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fmaximum-gap\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最大间距\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsubarray-sum-closest\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最接近零的子数组和\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Flargest-number\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最大数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002F4sum\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E四数之和\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fpartition-array\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E数组划分\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fkth-largest-element\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E第K大元素\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fsort-colors-ii\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E排颜色\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E深度优先搜索\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fn-queens\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003EN皇后问题\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fgraph-valid-tree\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E图是否是树\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fpermutations-ii\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E带重复元素的排列\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fpalindrome-partitioning\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E分割回文串\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E数组\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fpartition-array\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E数组划分\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Freverse-pairs\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E逆序对\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fmerge-intervals\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E合并区间\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsearch-in-rotated-sorted-array\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E搜索旋转排序数组\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fmaximum-subarray\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最大子数组\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fremove-duplicates-from-sorted-array\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E删除排序数组中的重复数字\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsecond-max-of-array\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E第二大的数组\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fmaximum-number-in-mountain-sequence\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E先递增后递减数组中的最大值\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Ftwo-sum-input-array-is-sorted\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E两数和 - 输入的数据是有序的\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fmedian-of-two-sorted-arrays\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E两个排序数组的中位数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsearch-in-a-big-sorted-array\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E在大数组中查找\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsort-colors\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E颜色分类\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fmerge-two-sorted-arrays\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E合并排序数组\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fkth-smallest-numbers-in-unsorted-array\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E无序数组K小元素\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fmedian\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E中位数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fpartition-array-by-odd-and-even\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E奇偶分割数组\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E贪心\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fmajority-number\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E主元素\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Ffind-the-missing-number\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E寻找缺失的数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fbest-time-to-buy-and-sell-stock\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E买卖股票最佳时机\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fgas-station\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E加油站\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fdelete-digits\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E删除数字\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fsingle-number-ii\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E落单的数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fmaximum-subarray-difference\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最大子数组差\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E线段树\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsegment-tree-query\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E线段树查询\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fsegment-tree-build-ii\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E线段树的构造\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fsegment-tree-modify\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E线段树的修改\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Finterval-sum\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E区间求和\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fcount-of-smaller-number\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E统计比给定整数小的数的个数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E栈\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fmin-stack\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E带最小值操作的栈\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fimplement-queue-by-two-stacks\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E用栈实现队列\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fvalid-parentheses\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E有效的括号序列\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fsimplify-path\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E简化路径\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E整数\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Freverse-integer\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E反转整数\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fflip-bits\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E将整数A转换为B\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fzh-cn\u002Fproblem\u002Fsort-integers\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E整数排序\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003C\u002Fp\u003E\u003Cp\u003E\u003Cb\u003E字符串处理\u003C\u002Fb\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Froman-to-integer\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E罗马数字转整数\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fpalindrome-number\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E回文数\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fanagrams\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E乱序字符串\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fvalid-palindrome\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E有效回文串\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Freverse-words-in-a-string\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E翻转字符串\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Flongest-substring-without-repeating-characters\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E最长无重复字符的子串\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fstring-compression\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E字符串压缩\u003C\u002Fa\u003E\u003Cbr\u002F\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fcompare-strings\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E比较字符串\u003C\u002Fa\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=http%3A\u002F\u002Fwww.lintcode.com\u002Fen\u002Fproblem\u002Fedit-distance-ii\u002F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E编辑距离II\u003C\u002Fa\u003E\u003C\u002Fp\u003E\u003Chr\u002F\u003E\u003Cp\u003E\u003Cb\u003E看完这篇文章后，有两件小事，能帮助你快速提升自己哟：\u003C\u002Fb\u003E\u003C\u002Fp\u003E\u003Cp\u003E1、免费试听\u003Cb\u003E\u003Ca href=\"https:\u002F\u002Flink.zhihu.com\u002F?target=https%3A\u002F\u002Fwww.jiuzhang.com\u002Fcourse\u002F23\u002F%3Futm_source%3Dsc-zhihuanswer-wy1023\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003E九章基础算法班（Java）\u003C\u002Fa\u003E\u003C\u002Fb\u003E，国内TOP1名校毕业、资深Java工程师、ACM算法竞赛金牌获得者张三疯老师讲授。\u003C\u002Fp\u003E\u003Cp\u003E2、添加班班微信jiuzhangsuanfa5，提供本课程试听报名截图，并回复【知乎Java】即可免费获取Java大礼包。\u003C\u002Fp\u003E\u003Cfigure data-size=\"normal\"\u003E\u003Cnoscript\u003E\u003Cimg src=\"https:\u002F\u002Fpic1.zhimg.com\u002F50\u002Fv2-9e2a31cc50d65a3a5cfce8352db0ebdb_hd.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"308\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https:\u002F\u002Fpic1.zhimg.com\u002Fv2-9e2a31cc50d65a3a5cfce8352db0ebdb_r.jpg\"\u002F\u003E\u003C\u002Fnoscript\u003E\u003Cimg src=\"data:image\u002Fsvg+xml;utf8,&lt;svg xmlns=&#39;http:\u002F\u002Fwww.w3.org\u002F2000\u002Fsvg&#39; width=&#39;720&#39; height=&#39;308&#39;&gt;&lt;\u002Fsvg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"308\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"720\" data-original=\"https:\u002F\u002Fpic1.zhimg.com\u002Fv2-9e2a31cc50d65a3a5cfce8352db0ebdb_r.jpg\" data-actualsrc=\"https:\u002F\u002Fpic1.zhimg.com\u002F50\u002Fv2-9e2a31cc50d65a3a5cfce8352db0ebdb_hd.jpg\"\u002F\u003E\u003C\u002Ffigure\u003E\u003Cp\u003E\u003C\u002Fp\u003E",
+          "editableContent": "",
+          "excerpt": "学习算法，切记不要一上来就开始啃《算法导论》，毕竟这本书并不适合新手学习，如果你之前的算法基础比较薄弱，只会一直陷在“拿起来又放下”的循环里。 可以怎么入门呢？建议还是 看书+实战，实战当然也不是说要去肝ACM或者是topcoder什么的，基本上来我们LintCode 刷刷题也就够了。 如何学习算法？算法，其实可以分为三种。算法、面试算法、竞赛算法。 算法也就是算法本身，推荐一些书籍。 1.入门系列：《算法图解》：“像小说…",
+          "collapsedBy": "nobody",
+          "collapseReason": "",
+          "annotationAction": null,
+          "markInfos": [],
+          "relevantInfo": {
+            "isRelevant": false,
+            "relevantType": "",
+            "relevantText": ""
+          },
+          "suggestEdit": {
+            "reason": "",
+            "status": false,
+            "tip": "",
+            "title": "",
+            "unnormalDetails": {
+              "status": "",
+              "description": "",
+              "reason": "",
+              "reasonId": 0,
+              "note": ""
+            },
+            "url": ""
+          },
+          "isLabeled": true,
+          "rewardInfo": {
+            "canOpenReward": false,
+            "isRewardable": false,
+            "rewardMemberCount": 0,
+            "rewardTotalMoney": 0,
+            "tagline": ""
+          },
+          "relationship": {
+            "isAuthor": false,
+            "isAuthorized": false,
+            "isNothelp": false,
+            "isThanked": false,
+            "isRecognized": false,
+            "voting": 0,
+            "upvotedFollowees": []
+          }
+        }
+      },
+      "articles": {},
+      "columns": {},
+      "topics": {},
+      "roundtables": {},
+      "favlists": {},
+      "comments": {},
+      "notifications": {},
+      "ebooks": {},
+      "activities": {},
+      "feeds": {},
+      "pins": {},
+      "promotions": {},
+      "drafts": {},
+      "chats": {},
+      "posts": {},
+      "clubs": {},
+      "clubTags": {}
+    },
+    "currentUser": "0d0ba11e4c80dcec8cb0868d4213380b",
+    "account": {
+      "lockLevel": {},
+      "unlockTicketStatus": false,
+      "unlockTicket": null,
+      "challenge": [],
+      "errorStatus": false,
+      "message": "",
+      "isFetching": false,
+      "accountInfo": {},
+      "urlToken": {
+        "loading": false
+      }
+    },
+    "settings": {
+      "socialBind": null,
+      "inboxMsg": null,
+      "notification": {},
+      "email": {},
+      "privacyFlag": null,
+      "blockedUsers": {
+        "isFetching": false,
+        "paging": {
+          "pageNo": 1,
+          "pageSize": 6
+        },
+        "data": []
+      },
+      "blockedFollowees": {
+        "isFetching": false,
+        "paging": {
+          "pageNo": 1,
+          "pageSize": 6
+        },
+        "data": []
+      },
+      "ignoredTopics": {
+        "isFetching": false,
+        "paging": {
+          "pageNo": 1,
+          "pageSize": 6
+        },
+        "data": []
+      },
+      "restrictedTopics": null,
+      "laboratory": {}
+    },
+    "notification": {},
+    "people": {
+      "profileStatus": {},
+      "activitiesByUser": {},
+      "answersByUser": {},
+      "answersSortByVotesByUser": {},
+      "answersIncludedByUser": {},
+      "votedAnswersByUser": {},
+      "thankedAnswersByUser": {},
+      "voteAnswersByUser": {},
+      "thankAnswersByUser": {},
+      "topicAnswersByUser": {},
+      "articlesByUser": {},
+      "articlesSortByVotesByUser": {},
+      "articlesIncludedByUser": {},
+      "pinsByUser": {},
+      "questionsByUser": {},
+      "commercialQuestionsByUser": {},
+      "favlistsByUser": {},
+      "followingByUser": {},
+      "followersByUser": {},
+      "mutualsByUser": {},
+      "followingColumnsByUser": {},
+      "followingQuestionsByUser": {},
+      "followingFavlistsByUser": {},
+      "followingTopicsByUser": {},
+      "publicationsByUser": {},
+      "columnsByUser": {},
+      "allFavlistsByUser": {},
+      "brands": null,
+      "creationsByUser": {},
+      "creationsSortByVotesByUser": {}
+    },
+    "env": {
+      "ab": {
+        "config": {
+          "experiments": [
+            {
+              "expId": "launch-li_qa_btn_text-2",
+              "expPrefix": "li_qa_btn_text",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-li_se_media_icon-3",
+              "expPrefix": "li_se_media_icon",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-nw_zhuantigaiban-2",
+              "expPrefix": "nw_zhuantigaiban",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-nw_zhuantikapian-2",
+              "expPrefix": "nw_zhuantikapian",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-qa_answer_update-2",
+              "expPrefix": "qa_answer_update",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-qa_column_invite-2",
+              "expPrefix": "qa_column_invite",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-rec_filter-6",
+              "expPrefix": "rec_filter",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-rec_km_category-2",
+              "expPrefix": "rec_km_category",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-rec_km_item_cf-2",
+              "expPrefix": "rec_km_item_cf",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-rec_km_recallnum-2",
+              "expPrefix": "rec_km_recallnum",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-rec_km_special-2",
+              "expPrefix": "rec_km_special",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-rec_km_zann-2",
+              "expPrefix": "rec_km_zann",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-rec_paid_mix-4",
+              "expPrefix": "rec_paid_mix",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-rec_prerank_heat-2",
+              "expPrefix": "rec_prerank_heat",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-rec_recall_score-10",
+              "expPrefix": "rec_recall_score",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-se_collegecm-3",
+              "expPrefix": "se_collegecm",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-se_hot__timebox-2",
+              "expPrefix": "se_hot__timebox",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-se_ios_spb309-5",
+              "expPrefix": "se_ios_spb309",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-se_payconsult-3",
+              "expPrefix": "se_payconsult",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-se_p_slideshow-2",
+              "expPrefix": "se_p_slideshow",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-se_subtext-2",
+              "expPrefix": "se_subtext",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-se_wannasearch-5",
+              "expPrefix": "se_wannasearch",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-se_webtimebox-2",
+              "expPrefix": "se_webtimebox",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-se_whitelist-2",
+              "expPrefix": "se_whitelist",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-top_vote-2",
+              "expPrefix": "top_vote",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-tp_club_qa-2",
+              "expPrefix": "tp_club_qa",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-us_bigone-10",
+              "expPrefix": "us_bigone",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-us_foltopic_user-10",
+              "expPrefix": "us_foltopic_user",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-us_newguide3-11",
+              "expPrefix": "us_newguide3",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-us_notification-2",
+              "expPrefix": "us_notification",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-us_n_web_msg-5",
+              "expPrefix": "us_n_web_msg",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-vd_video_ad-1",
+              "expPrefix": "vd_video_ad",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "launch-vd_zvideo_lic-2",
+              "expPrefix": "vd_zvideo_lic",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "qa_card_ab_test-1",
+              "expPrefix": "qa_card_ab_test",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "li_pcv-1",
+              "expPrefix": "li_pcv",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "li_banner_type-22",
+              "expPrefix": "li_banner_type",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "li_pa_exp-3",
+              "expPrefix": "li_pa_exp",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "li_magazine_sec-11",
+              "expPrefix": "li_magazine_sec",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "li_se_video_sec-6",
+              "expPrefix": "li_se_video_sec",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "li_audio_ebook-5",
+              "expPrefix": "li_audio_ebook",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "se_duration-3",
+              "expPrefix": "se_duration",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "se_opm-2",
+              "expPrefix": "se_opm",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "us_bignew-3",
+              "expPrefix": "us_bignew",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "us_update-9",
+              "expPrefix": "us_update",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "us_leave_rcmd-2",
+              "expPrefix": "us_leave_rcmd",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "top_native_ans-3",
+              "expPrefix": "top_native_ans",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "top_hotcommerce-4",
+              "expPrefix": "top_hotcommerce",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "top_billhead-7",
+              "expPrefix": "top_billhead",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "rec_slotpaidexp-6",
+              "expPrefix": "rec_slotpaidexp",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            },
+            {
+              "expId": "rec_test_aa1-8",
+              "expPrefix": "rec_test_aa1",
+              "isDynamicallyUpdated": true,
+              "isRuntime": false,
+              "includeTriggerInfo": false
+            }
+          ],
+          "params": [
+            {
+              "id": "gue_zhuantikapian",
+              "type": "String",
+              "value": "1"
+            },
+            {
+              "id": "se_entity_model_14",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_yxzl_zcfw",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "pf_foltopic_usernum",
+              "type": "String",
+              "value": "50",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ls_zvideo_license",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_km_recall",
+              "type": "String",
+              "value": "default",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_waterfall",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_hot_timebox",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_lottery",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_bignew",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_zcfw_broadcast2",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tsp_billboardhead",
+              "type": "String",
+              "value": "2",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_cln_vl",
+              "type": "String",
+              "value": "yes",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_answer_rec_cp",
+              "type": "String",
+              "value": "open",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_km_category",
+              "type": "String",
+              "value": "open",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_mclick1",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_perf",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_movietab",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_club_header",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_meta_card",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_vip_no_ad_mon",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zw_payc_qaedit",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_prerank_heatscore",
+              "type": "String",
+              "value": "true",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_col_boost",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_new_topic",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_topiclabel",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_sft_v2",
+              "type": "String",
+              "value": "d",
+              "chainId": "_all_"
+            },
+            {
+              "id": "top_hotcommerce",
+              "type": "String",
+              "value": "4",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_special",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "pf_noti_entry_num",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tsp_hotlist_ui",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_video_section",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "gue_new_special_page",
+              "type": "String",
+              "value": "1"
+            },
+            {
+              "id": "zr_km_feed_nlp",
+              "type": "String",
+              "value": "old",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_km_prerank",
+              "type": "String",
+              "value": "new",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_paid_answer_mix",
+              "type": "String",
+              "value": "mixed_15",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_sticky_android",
+              "type": "String",
+              "value": "2",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_search_feed",
+              "type": "String",
+              "value": "N",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_whitelist",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "top_ydyq",
+              "type": "String",
+              "value": "X",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_tjys_ec_ab",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "gue_card_test",
+              "type": "String",
+              "value": "0"
+            },
+            {
+              "id": "zr_km_feed_prerank",
+              "type": "String",
+              "value": "new",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_km_recall_num",
+              "type": "String",
+              "value": "open",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_club_post",
+              "type": "String",
+              "value": "5",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_wannasearch",
+              "type": "String",
+              "value": "a",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_dnn_mt",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_update",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_zcfw_badcase",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_bigone",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "qap_payc_invite",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_expired_ob",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_ltr_dnn_cp",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_topicfeed",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_ctr_user",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "top_root",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_stickypush",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_ctr_topic",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_se_section",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_ebook_audio",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_km_style",
+              "type": "String",
+              "value": "base",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_college",
+              "type": "String",
+              "value": "default",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_colorfultab",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_p_slideshow",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_webmajorob",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_ctx",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_featured",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "top_universalebook",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_backsearch",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_m_intro_re_topic",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_vip_lr",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zw_sameq_sorce",
+              "type": "String",
+              "value": "999",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_km_item_cf",
+              "type": "String",
+              "value": "open",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_slotpaidexp",
+              "type": "String",
+              "value": "6",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_entity_model",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_hotmore",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_qa_metacard_top",
+              "type": "String",
+              "value": "top",
+              "chainId": "_all_"
+            },
+            {
+              "id": "web_n_web_msg",
+              "type": "String",
+              "value": "1"
+            },
+            {
+              "id": "ug_follow_answerer",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_pay_banner_type",
+              "type": "String",
+              "value": "6",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_slot_cold_start",
+              "type": "String",
+              "value": "aver",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_rel_search",
+              "type": "String",
+              "value": "base",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_duration",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_agency",
+              "type": "String",
+              "value": " 0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "pf_fuceng",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "web_answer_list_ad",
+              "type": "String",
+              "value": "1"
+            },
+            {
+              "id": "zr_km_slot_style",
+              "type": "String",
+              "value": "event_card",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_famous",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tsp_vote",
+              "type": "String",
+              "value": "2",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_leave_recommend",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ug_follow_answerer_0",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_college_cm",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_topic_head",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_salt_hot",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "qap_ques_invite",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_rec_answer_cp",
+              "type": "String",
+              "value": "close",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_video_recall",
+              "type": "String",
+              "value": "current_recall",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_cardrank_2",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_hotsearch",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_ri_merge",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "web_sem_ab",
+              "type": "String",
+              "value": "1"
+            },
+            {
+              "id": "se_ltr_user",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_purchase_test",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_sug",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_ltr_cp_new",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_zu_recommend",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ls_zvideo_trans",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "sem_up_growth",
+              "type": "String",
+              "value": "in_app",
+              "chainId": "_all_"
+            },
+            {
+              "id": "qap_thanks",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_websearch",
+              "type": "String",
+              "value": "3",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_club_qa",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_zcfw_shipinshiti",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ls_zvideo_like",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ug_goodcomment_0",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_se_media_icon",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_rel_search",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_header_style",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_qa_metacard",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "top_v_album",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_zuichangfangwen",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_multianswer",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "web_heifetz_grow_ad",
+              "type": "String",
+              "value": "1"
+            },
+            {
+              "id": "gue_thanks",
+              "type": "String",
+              "value": "0"
+            },
+            {
+              "id": "web_question_invite",
+              "type": "String",
+              "value": "B"
+            },
+            {
+              "id": "zr_filter",
+              "type": "String",
+              "value": "ignore_topics",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_webrs",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_ab",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_km_special",
+              "type": "String",
+              "value": "open",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_ctr",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "top_ebook",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ug_zero_follow_0",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_infinity_member",
+              "type": "String",
+              "value": "close",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_km_topic_zann",
+              "type": "String",
+              "value": "new",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_hot_score_ab",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_paid_answer_exp",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_se_heat",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "qap_question_author",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "web_answer_update",
+              "type": "String",
+              "value": "1"
+            },
+            {
+              "id": "zr_item_nn_recall",
+              "type": "String",
+              "value": "close",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_recall_heatscore",
+              "type": "String",
+              "value": "4_6",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_mclick",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_webtimebox",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_cardrank_1",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_zu_onebox",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_club_qa_pic",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_km_answer",
+              "type": "String",
+              "value": "open_cvr",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_test_aa1",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_ctr_pyc",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "pf_creator_card",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ug_zero_follow",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ls_fmp4",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_android_vip",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_ans_rec",
+              "type": "String",
+              "value": "gbrank",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_spb309",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_dnn_unbias",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_aa_base",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_use_zitem",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_qa_btn_text",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_cardrank_3",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_time_threshold",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "top_test_4_liguangyi",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_qa_new_cover",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_auto_syn",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "top_quality",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "pf_newguide_vertical",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "web_ad_banner",
+              "type": "String",
+              "value": "0"
+            },
+            {
+              "id": "zr_book_chap",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_likebutton",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_amovietab",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_sft",
+              "type": "String",
+              "value": "a",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_zcfw_broadcast",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_album_liutongab",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_preset_tech",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_billboardsearch",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_art_rec",
+              "type": "String",
+              "value": "base",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_km_item_prerank",
+              "type": "String",
+              "value": "old",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_ios_spb309",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_mobileweb",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "top_native_answer",
+              "type": "String",
+              "value": "2",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ug_fw_answ_aut_1",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ls_videoad",
+              "type": "String",
+              "value": "2",
+              "chainId": "_all_"
+            },
+            {
+              "id": "gue_goods_card",
+              "type": "String",
+              "value": "0"
+            },
+            {
+              "id": "zr_video_rank_nn",
+              "type": "String",
+              "value": "new_rank",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_site_onebox",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "soc_notification",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ug_follow_topic_1",
+              "type": "String",
+              "value": "2",
+              "chainId": "_all_"
+            },
+            {
+              "id": "ug_newtag",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_adxtest",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_multi_task_new",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "gue_anonymous",
+              "type": "String",
+              "value": "show"
+            },
+            {
+              "id": "web_answerlist_ad",
+              "type": "String",
+              "value": "0"
+            },
+            {
+              "id": "web_column_auto_invite",
+              "type": "String",
+              "value": "1"
+            },
+            {
+              "id": "zr_expslotpaid",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_intervene",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_new_commodity",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "tp_qa_toast",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "li_qa_cover",
+              "type": "String",
+              "value": "old",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_paid_answer_exp",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_video_rank",
+              "type": "String",
+              "value": "new_rank",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_article_new",
+              "type": "String",
+              "value": "close",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_ad_index",
+              "type": "String",
+              "value": "10",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_subtext",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "qap_question_visitor",
+              "type": "String",
+              "value": " 0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "zr_rewrite_query",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_go_ztext",
+              "type": "String",
+              "value": "0",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_cardrank_4",
+              "type": "String",
+              "value": "1",
+              "chainId": "_all_"
+            },
+            {
+              "id": "se_payconsult",
+              "type": "String",
+              "value": "5",
+              "chainId": "_all_"
+            },
+            {
+              "id": "top_new_feed",
+              "type": "String",
+              "value": "5",
+              "chainId": "_all_"
+            }
+          ],
+          "chains": [
+            {
+              "chainId": "_all_"
+            }
+          ]
+        },
+        "triggers": {}
+      },
+      "userAgent": {
+        "Edge": false,
+        "Wechat": false,
+        "Weibo": false,
+        "QQ": false,
+        "MQQBrowser": false,
+        "Qzone": false,
+        "Mobile": false,
+        "Android": false,
+        "iOS": false,
+        "isAppleDevice": true,
+        "Zhihu": false,
+        "ZhihuHybrid": false,
+        "isBot": false,
+        "Tablet": false,
+        "UC": false,
+        "Sogou": false,
+        "Qihoo": false,
+        "Baidu": false,
+        "BaiduApp": false,
+        "Safari": false,
+        "GoogleBot": false,
+        "isWebView": false,
+        "origin": "Mozilla\u002F5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit\u002F537.36 (KHTML, like Gecko) Chrome\u002F78.0.3904.97 Safari\u002F537.36"
+      },
+      "appViewConfig": {},
+      "ctx": {
+        "path": "\u002Fquestion\u002F25693637\u002Fanswer\u002F747872819"
+      },
+      "trafficSource": "production",
+      "edition": {
+        "baidu": false,
+        "sogou": false,
+        "baiduBeijing": false,
+        "sogouBeijing": false,
+        "sogouInput": false
+      },
+      "theme": "light",
+      "enableShortcut": true,
+      "referer": "",
+      "conf": {},
+      "ipInfo": {},
+      "logged": true
+    },
+    "me": {
+      "columnContributions": []
+    },
+    "label": {
+      "recognizerLists": {}
+    },
+    "ecommerce": {},
+    "comments": {
+      "pagination": {},
+      "collapsed": {},
+      "reverse": {},
+      "reviewing": {},
+      "conversation": {},
+      "parent": {}
+    },
+    "commentsV2": {
+      "stickers": [],
+      "commentWithPicPermission": {},
+      "notificationsComments": {},
+      "pagination": {},
+      "collapsed": {},
+      "reverse": {},
+      "reviewing": {},
+      "conversation": {},
+      "conversationMore": {},
+      "parent": {}
+    },
+    "pushNotifications": {
+      "default": {
+        "isFetching": false,
+        "isDrained": false,
+        "ids": []
+      },
+      "follow": {
+        "isFetching": false,
+        "isDrained": false,
+        "ids": []
+      },
+      "vote_thank": {
+        "isFetching": false,
+        "isDrained": false,
+        "ids": []
+      },
+      "currentTab": "default",
+      "notificationsCount": {
+        "default": 0,
+        "follow": 0,
+        "vote_thank": 0
+      }
+    },
+    "messages": {
+      "data": {},
+      "currentTab": "common",
+      "messageCount": 0
+    },
+    "register": {
+      "registerValidateSucceeded": null,
+      "registerValidateErrors": {},
+      "registerConfirmError": null,
+      "sendDigitsError": null,
+      "registerConfirmSucceeded": null
+    },
+    "login": {
+      "loginUnregisteredError": false,
+      "loginBindWechatError": false,
+      "loginConfirmError": null,
+      "sendDigitsError": null,
+      "needSMSIdentify": false,
+      "validateDigitsError": false,
+      "loginConfirmSucceeded": null,
+      "qrcodeLoginToken": "",
+      "qrcodeLoginScanStatus": 0,
+      "qrcodeLoginError": null,
+      "qrcodeLoginReturnNewToken": false
+    },
+    "active": {
+      "sendDigitsError": null,
+      "activeConfirmSucceeded": null,
+      "activeConfirmError": null
+    },
+    "switches": {},
+    "captcha": {
+      "captchaNeeded": false,
+      "captchaValidated": false,
+      "captchaBase64String": null,
+      "captchaValidationMessage": null,
+      "loginCaptchaExpires": false
+    },
+    "sms": {
+      "supportedCountries": []
+    },
+    "chat": {
+      "chats": {},
+      "inbox": {
+        "recents": {
+          "isFetching": false,
+          "isDrained": false,
+          "isPrevDrained": false,
+          "result": [],
+          "next": null,
+          "key": null
+        },
+        "strangers": {
+          "isFetching": false,
+          "isDrained": false,
+          "isPrevDrained": false,
+          "result": [],
+          "next": null,
+          "key": null
+        },
+        "friends": {
+          "isFetching": false,
+          "isDrained": false,
+          "isPrevDrained": false,
+          "result": [],
+          "next": null,
+          "key": null
+        },
+        "search": {
+          "isFetching": false,
+          "isDrained": false,
+          "isPrevDrained": false,
+          "result": [],
+          "next": null,
+          "key": null
+        },
+        "config": {
+          "newCount": 0,
+          "strangerMessageSwitch": false,
+          "strangerMessageUnread": false,
+          "friendCount": 0
+        }
+      },
+      "global": {
+        "isChatMqttExisted": false
+      }
+    },
+    "emoticons": {
+      "emoticonGroupList": [],
+      "emoticonGroupDetail": {}
+    },
+    "creator": {
+      "currentCreatorUrlToken": null,
+      "homeData": {
+        "recommendQuestions": []
+      },
+      "tools": {
+        "question": {
+          "invitationCount": {
+            "questionFolloweeCount": 0,
+            "questionTotalCount": 0
+          },
+          "goodatTopics": []
+        },
+        "customPromotion": {
+          "itemLists": {}
+        },
+        "recommend": {
+          "recommendTimes": {}
+        }
+      },
+      "explore": {
+        "academy": {
+          "tabs": [],
+          "article": {}
+        }
+      },
+      "rights": [],
+      "rightsStatus": {},
+      "levelUpperLimit": 10,
+      "account": {
+        "growthLevel": {}
+      },
+      "applyStatus": {}
+    },
+    "question": {
+      "followers": {},
+      "concernedFollowers": {},
+      "answers": {},
+      "hiddenAnswers": {},
+      "updatedAnswers": {},
+      "collapsedAnswers": {},
+      "notificationAnswers": {},
+      "invitedQuestions": {
+        "total": {
+          "count": null,
+          "isEnd": false,
+          "isLoading": false,
+          "questions": []
+        },
+        "followees": {
+          "count": null,
+          "isEnd": false,
+          "isLoading": false,
+          "questions": []
+        }
+      },
+      "laterQuestions": {
+        "count": null,
+        "globalWriteAnimate": false,
+        "isEnd": false,
+        "isLoading": false,
+        "questions": []
+      },
+      "waitingQuestions": {
+        "hot": {
+          "isEnd": false,
+          "isLoading": false,
+          "questions": []
+        },
+        "value": {
+          "isEnd": false,
+          "isLoading": false,
+          "questions": []
+        },
+        "newest": {
+          "isEnd": false,
+          "isLoading": false,
+          "questions": []
+        },
+        "easy": {
+          "isEnd": false,
+          "isLoading": false,
+          "questions": []
+        }
+      },
+      "invitationCandidates": {},
+      "inviters": {},
+      "invitees": {},
+      "similarQuestions": {},
+      "relatedCommodities": {},
+      "recommendReadings": {},
+      "bio": {},
+      "brand": {},
+      "permission": {},
+      "adverts": {},
+      "advancedStyle": {},
+      "commonAnswerCount": 0,
+      "hiddenAnswerCount": 0,
+      "meta": {},
+      "autoInvitation": {},
+      "simpleConcernedFollowers": {},
+      "draftStatus": {},
+      "disclaimers": {}
+    },
+    "shareTexts": {},
+    "answers": {
+      "voters": {},
+      "copyrightApplicants": {},
+      "favlists": {},
+      "newAnswer": {},
+      "concernedUpvoters": {},
+      "simpleConcernedUpvoters": {},
+      "paidContent": {},
+      "settings": {}
+    },
+    "banner": {},
+    "topic": {
+      "bios": {},
+      "hot": {},
+      "newest": {},
+      "top": {},
+      "unanswered": {},
+      "questions": {},
+      "followers": {},
+      "contributors": {},
+      "parent": {},
+      "children": {},
+      "bestAnswerers": {},
+      "wikiMeta": {},
+      "index": {},
+      "intro": {},
+      "meta": {},
+      "schema": {},
+      "creatorWall": {},
+      "wikiEditInfo": {},
+      "committedWiki": {},
+      "landingBasicData": {},
+      "landingExcellentItems": [],
+      "landingExcellentEditors": [],
+      "landingCatalog": [],
+      "landingEntries": {}
+    },
+    "explore": {
+      "recommendations": {},
+      "specials": {
+        "entities": {},
+        "order": []
+      },
+      "roundtables": {
+        "entities": {},
+        "order": []
+      },
+      "collections": {},
+      "columns": {}
+    },
+    "articles": {
+      "voters": {}
+    },
+    "favlists": {
+      "relations": {}
+    },
+    "pins": {
+      "voters": {}
+    },
+    "topstory": {
+      "recommend": {
+        "isFetching": false,
+        "isDrained": false,
+        "afterId": 0,
+        "items": [],
+        "next": null
+      },
+      "follow": {
+        "isFetching": false,
+        "isDrained": false,
+        "afterId": 0,
+        "items": [],
+        "next": null
+      },
+      "followWonderful": {
+        "isFetching": false,
+        "isDrained": false,
+        "afterId": 0,
+        "items": [],
+        "next": null
+      },
+      "sidebar": null,
+      "announcement": {},
+      "hotListCategories": [],
+      "hotList": [],
+      "guestFeeds": {
+        "isFetching": false,
+        "isDrained": false,
+        "afterId": 0,
+        "items": [],
+        "next": null
+      },
+      "followExtra": {
+        "isNewUser": null,
+        "isFetched": false,
+        "followCount": 0,
+        "followers": []
+      }
+    },
+    "upload": {},
+    "video": {
+      "data": {},
+      "shareVideoDetail": {},
+      "last": {}
+    },
+    "zvideos": {
+      "tagoreCategory": [],
+      "recommendations": {}
+    },
+    "guide": {
+      "guide": {
+        "isFetching": false,
+        "isShowGuide": false
+      }
+    },
+    "reward": {
+      "answer": {},
+      "article": {},
+      "question": {}
+    },
+    "search": {
+      "recommendSearch": [],
+      "topSearch": {},
+      "searchValue": {},
+      "suggestSearch": {},
+      "attachedInfo": {},
+      "nextOffset": {},
+      "topicReview": {},
+      "generalByQuery": {},
+      "generalByQueryInADay": {},
+      "generalByQueryInAWeek": {},
+      "generalByQueryInThreeMonths": {},
+      "peopleByQuery": {},
+      "topicByQuery": {},
+      "columnByQuery": {},
+      "liveByQuery": {},
+      "albumByQuery": {},
+      "eBookByQuery": {}
+    },
+    "publicEditPermission": {},
+    "readStatus": {},
+    "draftHistory": {
+      "history": {},
+      "drafts": {}
+    },
+    "notifications": {
+      "recent": {
+        "isFetching": false,
+        "isDrained": false,
+        "isPrevDrained": false,
+        "result": [],
+        "next": null,
+        "key": null
+      },
+      "history": {
+        "isFetching": false,
+        "isDrained": false,
+        "isPrevDrained": false,
+        "result": [],
+        "next": null,
+        "key": null
+      },
+      "notificationActors": {
+        "isFetching": false,
+        "isDrained": false,
+        "isPrevDrained": false,
+        "result": [],
+        "next": null,
+        "key": null
+      },
+      "recentNotificationEntry": "all"
+    },
+    "specials": {
+      "entities": {},
+      "all": {
+        "data": [],
+        "paging": {},
+        "isLoading": false
+      }
+    },
+    "collections": {
+      "hot": {
+        "data": [],
+        "paging": {},
+        "isLoading": false
+      }
+    },
+    "mcn": {
+      "bindInfo": {},
+      "memberCategoryList": [],
+      "categoryList": [],
+      "taobaoCategoryList": []
+    },
+    "brand": {
+      "contentPlugin": {}
+    },
+    "metaLink": {
+      "metaLinkTemplate": {}
+    },
+    "host": {
+      "roundtable": {
+        "subjects": {},
+        "applications": {
+          "total": 0
+        },
+        "online": {
+          "total": 0
+        },
+        "applies": {},
+        "details": {},
+        "includedResource": {},
+        "hotQuestions": {},
+        "batchInclude": {}
+      },
+      "special": {
+        "applications": {
+          "total": 0,
+          "pages": {},
+          "entities": {}
+        },
+        "censorHistory": {},
+        "drafts": {}
+      }
+    },
+    "knowledgePlan": {
+      "activityInfos": {},
+      "activityStatuses": {},
+      "premiumContents": {},
+      "activityCreationList": {}
+    }
+  },
+  "subAppName": "main"
+}

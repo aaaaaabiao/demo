@@ -1,11 +1,9 @@
-package site.abiao.demo.lucene.directory;
+package site.abiao.demo.apache.lucene.directory.vfs;
 import java.io.IOException;
 import java.util.Collection;
-import org.apache.commons.vfs2.FileObject;
-import org.apache.commons.vfs2.FileSystemException;
-import org.apache.commons.vfs2.FileSystemManager;
-import org.apache.commons.vfs2.RandomAccessContent;
-import org.apache.commons.vfs2.VFS;
+
+import org.apache.commons.vfs2.*;
+import org.apache.commons.vfs2.provider.ftp.FtpFileSystemConfigBuilder;
 import org.apache.commons.vfs2.util.RandomAccessMode;
 import org.apache.lucene.store.*;
 
@@ -18,15 +16,17 @@ public class VFSDirectory extends BaseDirectory {
 
     private FileSystemManager fileManager;
     private FileObject directory;
-
+    private FileSystemOptions opts;
 
     public VFSDirectory(String repository_uri) throws IOException {
-         this(repository_uri, new VFSLockFactory());
+         this(repository_uri, VFSLockFactory.INSTANCE);
     }
     public VFSDirectory(String repository_uri, LockFactory lockFactory) throws IOException {
         super(lockFactory);
+        opts = new FileSystemOptions();
+        FtpFileSystemConfigBuilder.getInstance().setPassiveMode(opts, true);
         this.fileManager = VFS.getManager();
-        this.directory = fileManager.resolveFile(repository_uri);
+        this.directory = fileManager.resolveFile(repository_uri, opts);
         if (!directory.exists())
             directory.createFolder();
 
@@ -39,7 +39,7 @@ public class VFSDirectory extends BaseDirectory {
         int len = files.length;
         String[] names = new String[len];
         for (int i = 0; i < len; i++) {
-            names[i] = files[i].getName().getPath();
+            names[i] = files[i].getName().getBaseName();
         }
         return names;
     }
@@ -76,7 +76,10 @@ public class VFSDirectory extends BaseDirectory {
 
     @Override
     public void rename(String source, String dest) throws IOException {
-
+        ensureOpen();
+        FileObject sourceFile = directory.resolveFile(source);
+        FileObject destFile = directory.resolveFile(dest);
+        sourceFile.moveTo(destFile);
     }
 
     @Override

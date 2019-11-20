@@ -1,4 +1,4 @@
-package site.abiao.demo.lucene.directory;
+package site.abiao.demo.apache.lucene.directory.vfs;
 
 import org.apache.commons.vfs2.FileObject;
 import org.apache.lucene.store.*;
@@ -7,14 +7,18 @@ import java.io.IOException;
 
 public class VFSLockFactory extends LockFactory {
 
+    public static final VFSLockFactory INSTANCE = new VFSLockFactory();
+
     @Override
     public Lock obtainLock(Directory dir, String lockName) throws IOException {
-        if (dir != null) {
-            VFSDirectory vfsDir = (VFSDirectory) dir;
-            FileObject lockfile = vfsDir.getDirectory().resolveFile(lockName);
+        VFSDirectory vfsDir = (VFSDirectory) dir;
+        FileObject lockfile = vfsDir.getDirectory().resolveFile(lockName);
+        if (lockfile.exists()) {
+            throw new IOException("lockfile exits");
+        } else {
+            lockfile.createFile();
             return new SimpleFSLock(lockfile);
         }
-        return null;
     }
 
     static final class SimpleFSLock extends Lock {

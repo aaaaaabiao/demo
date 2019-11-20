@@ -1,4 +1,4 @@
-package site.abiao.demo.lucene;
+package site.abiao.demo.apache.lucene;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
+import org.apache.hadoop.conf.Configuration;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
@@ -15,7 +16,11 @@ import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
-import site.abiao.demo.lucene.analyzer.IKAnalyzer4Lucene7;
+import site.abiao.demo.apache.lucene.analyzer.IKAnalyzer4Lucene7;
+import site.abiao.demo.apache.lucene.datas.Contants;
+import site.abiao.demo.apache.lucene.directory.hdfs.HdfsDirectory;
+import site.abiao.demo.apache.lucene.directory.vfs.VFSDirectory;
+
 
 /**
  * TODO  索引文件
@@ -26,18 +31,36 @@ import site.abiao.demo.lucene.analyzer.IKAnalyzer4Lucene7;
  */
 @Slf4j
 public class Indexer {
+
+
     // 写索引实例
     private IndexWriter writer;
 
     /**
      * 构造方法 实例化IndexWriter
      *
-     * @param indexDir
+     *
      * @throws IOException
      */
-    public Indexer(String indexDir) throws IOException {
+    public Indexer(String dirType) throws IOException {
+        Directory directory = null;
+
+        switch (dirType) {
+            case "mmap":
+                directory = FSDirectory.open(Paths.get(Contants.indexDir));
+                break;
+            case "hdfs":
+                Configuration config = new Configuration();
+                config.set("dfs.client.use.datanode.hostname","true");
+                directory = new HdfsDirectory(config, Contants.hdfsDir);
+            break;
+            case "ftp":
+                directory = new VFSDirectory(Contants.ftpDir);
+                break;
+
+        }
         //得到索引所在目录的路径
-        Directory directory = FSDirectory.open(Paths.get(indexDir));
+
         // 标准分词器
         Analyzer analyzer = new IKAnalyzer4Lucene7();
         //保存用于创建IndexWriter的所有配置。
@@ -147,15 +170,14 @@ public class Indexer {
     }
 
     public static void main(String[] args) throws IOException {
-
-        String indexDir = "/Users/hubiao/java/data/lucene/index";
         String dataDir = "/Users/hubiao/java/data/lucene/doc";
         Indexer indexer = null;
         Scanner scanner = new Scanner(System.in);
         while (true) {
             try {
+                String type = scanner.next();
+                indexer = new Indexer(type);
                 String cmd = scanner.next();
-                indexer = new Indexer(indexDir);
                 switch (cmd) {
                     case "c":
                         indexer.createIndex(dataDir);
